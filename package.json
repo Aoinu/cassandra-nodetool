@@ -5,6 +5,9 @@
   "author": "aoinu",
   "license": "MIT",
   "private": true,
+  "bin": {
+    "jsnodetool": "lib/cli.js"
+  },
   "scripts": {
     "lint": "eslint lib/**/*.js",
     "lint:fix": "eslint --fix lib/**/*.js",
@@ -15,6 +18,7 @@
     "node": ">=7.10.1"
   },
   "dependencies": {
+    "argparse": "^1.0.10",
     "jmx": "^0.7.0"
   },
   "devDependencies": {
