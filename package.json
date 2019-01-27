@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/aoinu/cassandra-nodetool.git"
+    "url": "https://github.com/Aoinu/cassandra-nodetool.git"
   },
   "private": false,
   "bin": {
