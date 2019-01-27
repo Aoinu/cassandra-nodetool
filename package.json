@@ -1,7 +1,7 @@
 {
   "name": "cassandra-nodetool",
   "description": "Cassandra Nodetool on Node.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "author": "aoinu",
   "license": "MIT",
