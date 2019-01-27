@@ -22,7 +22,9 @@ jobs:
           command: npm run lint
       - run:
           name: Run tests
-          command: npm test
+          command: npm run test:ci
+          environment:
+            JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
 
       - save_cache:
           paths:
