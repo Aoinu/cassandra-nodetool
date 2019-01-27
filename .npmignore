@@ -1,0 +1,13 @@
+node_modules/
+coverage/
+**/__mocks__/
+.vscode/
+.circleci/
+
+**/*.test.js
+
+.eslintrc.yml
+.dockerignore
+Dockerfile
+jest.config.js
+junit.xml
