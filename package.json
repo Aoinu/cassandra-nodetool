@@ -1,13 +1,13 @@
 {
   "name": "cassandra-nodetool",
   "description": "Cassandra Nodetool on Node.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "aoinu",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/aoinu/cassandra-nodetool.git"
+    "url": "https://github.com/Aoinu/cassandra-nodetool.git"
   },
   "private": false,
   "bin": {

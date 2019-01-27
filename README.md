@@ -1,5 +1,11 @@
 # Cassandra Nodetool
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/cassandra-nodetool.svg)](https://badge.fury.io/js/cassandra-nodetool)
+[![david-dm](https://david-dm.org/Aoinu/cassandra-nodetool.svg)](https://david-dm.org/Aoinu/cassandra-nodetool)
+[![CircleCI](https://circleci.com/gh/Aoinu/cassandra-nodetool.svg?style=svg)](https://circleci.com/gh/Aoinu/cassandra-nodetool)
+[![codecov](https://codecov.io/gh/Aoinu/cassandra-nodetool/branch/master/graph/badge.svg)](https://codecov.io/gh/Aoinu/cassandra-nodetool)
+
 Cassandra Nodetool on Node.js
 
 ## Requirements
