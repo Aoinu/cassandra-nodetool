@@ -17,14 +17,19 @@ jobs:
           - v1-dependencies-
 
       - run: npm install
+
       - run:
           name: Run lint
           command: npm run lint
+
       - run:
           name: Run tests
           command: npm run test:ci
           environment:
             JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
+      
+      - store_test_results:
+          path: reports
 
       - save_cache:
           paths:
