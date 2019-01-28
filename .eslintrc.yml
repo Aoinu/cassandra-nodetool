@@ -23,3 +23,6 @@ rules:
   comma-dangle:
     - error
     - always-multiline
+  no-unused-vars:
+    - error
+    - argsIgnorePattern: ^_
