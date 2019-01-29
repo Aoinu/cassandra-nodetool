@@ -17,7 +17,7 @@
     "lint": "eslint lib/**/*.js",
     "lint:fix": "eslint --fix lib/**/*.js",
     "test": "jest --no-cache",
-    "test:ci": "jest --ci --no-cache --coverage --runInBand --reporters=default --reporters=jest-junit",
+    "test:ci": "jest --ci --no-cache --coverage --reporters=default --reporters=jest-junit",
     "test:cov": "jest --coverage --no-cache",
     "posttest:ci": "codecov"
   },
