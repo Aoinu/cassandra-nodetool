@@ -11,7 +11,7 @@
   },
   "private": false,
   "bin": {
-    "jsnodetool": "lib/cli.js"
+    "jsnodetool": "lib/cli/index.js"
   },
   "scripts": {
     "lint": "eslint lib/**/*.js",
